@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Logo from "../Images/Logo.png";
+import Logo from "../Images/Logo1.png";
 import { Link } from "react-router-dom";
  
 //  const LoggedIn=()=>{
