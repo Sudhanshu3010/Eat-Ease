@@ -1,35 +1,31 @@
 {
-  "name": "sample-project",
+  "name": "lec1",
   "version": "1.0.0",
-  "description": "This is sample project from Namaste React by Akshay Saini", 
+  "description": "this is a tutorial",
   "scripts": {
-    "start": "parcel index.html",
+    "start": " parcel index.html",
     "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sudhanshu3010/sample-react.git"
+    "url": "git+https://github.com/TejasMete001/Reactut.git"
   },
-  "keywords": [
-    "react"
-  ],
-  "author": "Sudhanshu",
+  "author": "tejas mete",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Sudhanshu3010/sample-react/issues"
+    "url": "https://github.com/TejasMete001/Reactut/issues"
   },
-  "homepage": "https://github.com/Sudhanshu3010/sample-react#readme",
+  "homepage": "https://github.com/TejasMete001/Reactut#readme",
   "devDependencies": {
-    "parcel": "^2.9.3",
+    "@babel/core": "^7.23.5",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.10.0",
     "process": "^0.11.10"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "browserlist":[
-    "Last 2 Chrome version"
-  ]
-
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0"
+  }
 }
