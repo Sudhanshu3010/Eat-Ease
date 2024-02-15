@@ -11,6 +11,7 @@ export const Header = () =>{
           <ul>
             <li>Home</li>
             <li>About Us</li>
+            <li>Services</li>
             <li>Contact</li>
             <li>Cart</li>
             
